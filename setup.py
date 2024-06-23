@@ -32,7 +32,7 @@ install_requires = [
     "scipy>=1.0.0,<1.11.0",  # FIXME: We limit <1.11.0 until #1954 is fixed
     "tqdm>=4.31.1,<5",
     "matplotlib>=2.2.2,<4",
-    "scikit-learn>=0.22.1,<1.0.3",
+    "scikit-learn>=0.22.1,<1.5.1",
     "numba>=0.38.1,<1",
     "lightfm>=1.15,<2",
     "lightgbm>=2.2.1",
@@ -41,7 +41,7 @@ install_requires = [
     "seaborn>=0.8.1,<1",
     "transformers>=2.5.0,<5",
     "category_encoders>=1.3.0,<2",
-    "jinja2>=2,<3.1",
+    "jinja2>=2,<3.2",
     "requests>=2.31.0,<3",
     "cornac>=1.1.2,<1.15.2;python_version<='3.7'",
     "cornac>=1.15.2,<2;python_version>='3.8'",  # After 1.15.2, Cornac requires python 3.8
